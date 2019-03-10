@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "815733253640",
+    "firebase_url": "https://arayancoaching.firebaseio.com",
+    "project_id": "arayancoaching",
+    "storage_bucket": "arayancoaching.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815733253640:android:7cfb1221f68ca34e",
+        "android_client_info": {
+          "package_name": "com.example.rakesh.aryancoaching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815733253640-ubh9hucnvlofd66mop0u8ttfhp3uk2fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rakesh.aryancoaching",
+            "certificate_hash": "23f9856b3f20eb0ebea375d405000e4b5ad7f6ff"
+          }
+        },
+        {
+          "client_id": "815733253640-d306j92i90d7tn4g8h7fjcf9v6d4pau4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6y-kLTQrPnFLgwIVhtbPUZSsh8jm13ig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "815733253640-d306j92i90d7tn4g8h7fjcf9v6d4pau4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rakesh.aryancoaching">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/coachingicon1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!-- <activity android:name=".LoginActivity" /> -->
+        <activity android:name=".Enquiry_Details" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Notification.MyFirebaseIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Notification.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".FacultyActivity" />
+        <activity
+            android:name=".FeeDetails"
+            android:label="Fee Details" />
+        <activity
+            android:name=".HomeTutionActivity"
+            android:label="Home Tution" />
+        <activity android:name=".RegistrationTutor" />
+        <activity android:name=".AdminLoginPage" />
+        <activity android:name=".AdminField" />
+        <activity
+            android:name=".Gallery"
+            android:label="Photos" />
+        <activity android:name=".ImagesActivity" />
+        <activity
+            android:name=".BatchActivity"
+            android:label="Batches"
+            android:theme="@style/MyMaterialTheme2" />
+
+        <activity android:name=".AboutUs" />
+        <activity android:name=".Photos" />
+        <activity android:name=".FullImageView" />
+        <activity android:name=".AddFacultyTeacher" />
+        <activity android:name=".TeacherDetails" />
+        <activity android:name=".EarnPoints"></activity>
+    </application>
+
+</manifest>

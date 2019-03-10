@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RegistrationTutor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textColor="@color/magneta"
+        android:layout_gravity="center_horizontal"
+        android:textSize="44sp"
+        android:fontFamily="cursive"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="60dp"
+            android:text="Name : "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:id="@+id/teacher_name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Qualification : "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:maxLines="8"
+            android:id="@+id/teacher_qualificatio"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Subjects :"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:hint="you want to teach"
+            android:maxLines="5"
+            android:id="@+id/teacher_subject"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="103sp"
+            android:layout_height="match_parent"
+            android:text="Contact :"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:id="@+id/teacher_contact_no"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="103sp"
+            android:layout_height="match_parent"
+            android:text="Email id :"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:id="@+id/teacher_email"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Address :"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:maxLines="10"
+            android:id="@+id/teacher_address"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Preffered Timing :"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:hint="e.g Morning,Evening"
+            android:maxLines="10"
+            android:id="@+id/teacher_timing"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Proceed To Payment"
+        android:id="@+id/payment_button"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/violet" />
+
+    </LinearLayout>
+
+</ScrollView>

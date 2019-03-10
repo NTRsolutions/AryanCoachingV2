@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Enquiry_Details">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enquiry Form"
+        android:textColor="@color/magneta"
+        android:layout_gravity="center_horizontal"
+        android:textSize="44sp"
+        android:fontFamily="cursive"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="60dp"
+            android:text="Name : "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:id="@+id/student_name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:text="Class : "
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:id="@+id/student_Class"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp">
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Subject :"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            android:fontFamily="casual"
+            android:id="@+id/student_subject"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="8dp">
+        <TextView
+            android:layout_width="103sp"
+            android:layout_height="match_parent"
+            android:text="Contact :"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp"/>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="casual"
+            android:textSize="25sp"
+            android:inputType="number"
+            android:textAllCaps="false"
+            android:id="@+id/student_contact_no"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:id="@+id/submit_button"
+        android:layout_marginTop="60dp"
+        android:background="@color/violet" />
+
+
+
+
+</LinearLayout>

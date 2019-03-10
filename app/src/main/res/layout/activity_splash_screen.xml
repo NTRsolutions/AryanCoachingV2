@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Blush"
+    tools:context=".SplashScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To\n Aryan Coaching Institute"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/Alizarin"
+        android:textSize="40dp"
+        android:rotation="350"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>

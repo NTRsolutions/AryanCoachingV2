@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".HomeTutionActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text=" Here You Can"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Register YourSelf As A Tutor"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text=" Enquire For A Home Tution "/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="View Available Teachers"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Register As A Tutor"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/cyan_Aqua"
+        android:id="@+id/registration_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Enqire For Home Tutor"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:background="@color/violet"
+        android:id="@+id/hometution_enquiry_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="View Availabe Tutor"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:background="@color/magneta"
+        android:id="@+id/availabel_teachers_button"/>
+
+
+
+</LinearLayout>

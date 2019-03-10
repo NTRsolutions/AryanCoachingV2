@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BatchActivity">
+        <item
+            android:id="@+id/Add_batch"
+            android:orderInCategory="100"
+            android:title="Add Batch"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/Remove_batch"
+            android:orderInCategory="100"
+            android:title="Remove batch"/>
+    </menu>
